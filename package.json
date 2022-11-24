@@ -13,9 +13,9 @@
   "author": "Daan Schaap",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ik1497/Ik1497.github.io/issues"
+    "url": "https://github.com/DaanSchaap/daanschaap.github.io/Informatie-Technoligie-PO/issues"
   },
-  "homepage": "https://github.com/Ik1497/Ik1497.github.io#readme",
+  "homepage": "https://daanschaap.github.io/Informatie-Technoligie-PO/",
   "devDependencies": {
     "sass": "^1.56.1"
   },
