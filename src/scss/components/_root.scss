@@ -1,5 +1,6 @@
-@use "abstracts/colors" as *;
-@use "abstracts/sizes" as *;
+@use "../abstracts/colors" as *;
+@use "../abstracts/sizes" as *;
+@use "../abstracts/typography" as *;
 
 
 :root {
@@ -13,6 +14,13 @@
     // Sizes
     @each $size in $sizes {
         --size-#{$size}: #{$size / 100 * $base-value};
+    }
+
+    // Typography
+    @each $typeset, $types in $typography {
+        @each $type, $value in $types {
+            --#{$typeset}-#{$type}: #{$value};
+        }
     }
 }
 
@@ -33,5 +41,14 @@
         .#{$element}-#{$size} {
             #{$element}: var(--size-#{$size});  
         }    
+    }
+}
+
+// Typography
+@each $typeset, $types in $typography {
+    @each $type, $value in $types {
+            .#{$typeset}-#{$type} {
+              #{$typeset}: var(--#{$typeset}-#{$type});
+        }
     }
 }
