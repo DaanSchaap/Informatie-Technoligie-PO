@@ -19,6 +19,18 @@ h6 {
   color: var(--text-primary);
 }
 
+.flex {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.border-style-solid {
+  border-style: solid;
+}
+
 :root {
   --background-primary: #efeff4;
   --background-alt: #ffffff;
@@ -395,6 +407,10 @@ h6 {
   margin-block: var(--size-100);
 }
 
+.border-width-100 {
+  border-width: var(--size-100);
+}
+
 .width-200 {
   width: var(--size-200);
 }
@@ -457,6 +473,10 @@ h6 {
 
 .margin-block-200 {
   margin-block: var(--size-200);
+}
+
+.border-width-200 {
+  border-width: var(--size-200);
 }
 
 .width-300 {
@@ -523,6 +543,10 @@ h6 {
   margin-block: var(--size-300);
 }
 
+.border-width-300 {
+  border-width: var(--size-300);
+}
+
 .width-400 {
   width: var(--size-400);
 }
@@ -585,6 +609,10 @@ h6 {
 
 .margin-block-400 {
   margin-block: var(--size-400);
+}
+
+.border-width-400 {
+  border-width: var(--size-400);
 }
 
 .width-500 {
@@ -651,6 +679,10 @@ h6 {
   margin-block: var(--size-500);
 }
 
+.border-width-500 {
+  border-width: var(--size-500);
+}
+
 .width-600 {
   width: var(--size-600);
 }
@@ -713,6 +745,10 @@ h6 {
 
 .margin-block-600 {
   margin-block: var(--size-600);
+}
+
+.border-width-600 {
+  border-width: var(--size-600);
 }
 
 .width-700 {
@@ -779,6 +815,10 @@ h6 {
   margin-block: var(--size-700);
 }
 
+.border-width-700 {
+  border-width: var(--size-700);
+}
+
 .width-800 {
   width: var(--size-800);
 }
@@ -843,6 +883,10 @@ h6 {
   margin-block: var(--size-800);
 }
 
+.border-width-800 {
+  border-width: var(--size-800);
+}
+
 .width-900 {
   width: var(--size-900);
 }
@@ -905,6 +949,10 @@ h6 {
 
 .margin-block-900 {
   margin-block: var(--size-900);
+}
+
+.border-width-900 {
+  border-width: var(--size-900);
 }
 
 .font-family-body {
