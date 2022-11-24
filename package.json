@@ -2,7 +2,7 @@
   "name": "Informatie Technologie PO",
   "version": "1.0.0",
   "description": "",
-  "main": "src/js/main.js",
+  "main": "./src/js/main.js",
   "scripts": {
     "sass": "sass --watch src/scss:src/css"
   },
