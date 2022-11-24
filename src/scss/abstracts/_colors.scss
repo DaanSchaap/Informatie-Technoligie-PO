@@ -1,0 +1,29 @@
+$colors: (
+    background: (
+        primary: #22252B,
+        alt: #1B1D22,
+        darken: #131a31,
+        soft: #292C33,
+        mute: #343841,
+        light: #5c6273,
+        lighten: #858da6
+    ),
+    accent: (
+        primary: #8eb6f8,
+        primary-dark: #0d5bdc,
+        primary-light: #b3cefb,
+
+        secondary: #f8cbad,
+        secondary-light: #fadbc6
+    ),
+    link: (
+        primary: #0096ff,
+        hover: #0066FF
+    )
+);
+
+$colorElements: (
+    "background",
+    "color",
+    "border-color"
+);

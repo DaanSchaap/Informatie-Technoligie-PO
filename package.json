@@ -1,0 +1,25 @@
+{
+  "name": "Informatie Technologie PO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/main.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ik1497/Ik1497.github.io.git"
+  },
+  "author": "Daan Schaap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ik1497/Ik1497.github.io/issues"
+  },
+  "homepage": "https://github.com/Ik1497/Ik1497.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.0.96"
+  }
+}

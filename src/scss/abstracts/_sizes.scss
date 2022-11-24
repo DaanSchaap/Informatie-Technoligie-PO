@@ -1,0 +1,32 @@
+$base-value: 0.25em;
+
+$sizes: (
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+);
+
+$sizeElements: (
+    "width",
+    "max-width",
+    "min-width",
+    "height",
+    "max-height",
+    "min-height",
+    "padding",
+    "padding-inline",
+    "padding-inline-start",
+    "padding-inline-end",
+    "padding-block",
+    "padding-block-start",
+    "padding-block-end",
+    "margin",
+    "margin-inline",
+    "margin-block"
+);
