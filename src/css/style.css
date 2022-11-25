@@ -5,18 +5,7 @@
 }
 
 body {
-  background: var(--background-primary);
-  color: var(--text-body);
-  font-family: var(--font-family-body);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--text-primary);
+  font-family: Inter;
 }
 
 .flex {
@@ -55,6 +44,7 @@ h6 {
   --accent-secondary-light: #fadbc6;
   --link-primary: #0096ff;
   --link-hover: #0066FF;
+  --page-home: #ff6161;
   --size-100: 0.25em;
   --size-200: 0.5em;
   --size-300: 0.75em;
@@ -341,6 +331,18 @@ h6 {
 
 .border-color-link-hover {
   border-color: var(--link-hover);
+}
+
+.background-page-home {
+  background: var(--page-home);
+}
+
+.color-page-home {
+  color: var(--page-home);
+}
+
+.border-color-page-home {
+  border-color: var(--page-home);
 }
 
 .width-100 {
@@ -959,4 +961,4 @@ h6 {
   font-family: var(--font-family-body);
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
