@@ -31,7 +31,12 @@
         @each $element in $colorElements {
             .#{$element}-#{$color}-#{$shade} {
               #{$element}: var(--#{$color}-#{$shade});  
-            }    
+            }
+            @if $element == color { 
+              .#{$element}-#{$color}-#{$shade} a {
+                #{$element}: var(--#{$color}-#{$shade});  
+              }
+            }   
         }
     }
 }
@@ -51,5 +56,14 @@
             .#{$typeset}-#{$type} {
               #{$typeset}: var(--#{$typeset}-#{$type});
         }
+    }
+}
+
+:not([class]) > a {
+    color: var(--color);
+    transition: color 250ms ease;
+
+    &:hover {
+        opacity: .7;
     }
 }

@@ -1,0 +1,42 @@
+// ------ //
+// Header //
+// ------ //
+
+// ------------------ //
+// Primary Navigation //
+// ------------------ //
+.primary-navigation {
+    $nav-active-border-width: 0.25em;
+
+    ul {
+        font-size: 2em;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em 2em;
+        justify-content: center;
+        list-style: none;
+
+        li {
+            a {
+                text-decoration: none;
+                transition: border 250ms ease;
+                border-bottom: 0.125em solid currentColor;
+
+                &:hover {
+                    border-width: $nav-active-border-width;
+                }
+            }
+
+            &.primary-navigation-nav-active {
+                a {
+                    border-width: calc($nav-active-border-width * 1.5);
+                }
+            }
+        }
+    }
+}
+
+// ----------------- //
+// Primary Page Info //
+// ----------------- //

@@ -34,7 +34,10 @@ $colors: (
         hover: #0066FF
     ),
     page: (
-        home: #ff6161
+        home: #ff6161,
+        about: #6171ff,
+        contact: #8800ff,
+        color: var(--color)
     )
 );
 
