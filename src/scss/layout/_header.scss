@@ -20,8 +20,8 @@
         li {
             a {
                 text-decoration: none;
-                transition: border 250ms ease;
-                border-bottom: 0.125em solid currentColor;
+                transition: border-width 250ms ease;
+                border-bottom: calc($nav-active-border-width / 2) solid currentColor;
 
                 &:hover {
                     border-width: $nav-active-border-width;

@@ -5,21 +5,21 @@
 let navSettings = [
     {
         label: "Home",
-        href: "/",
+        href: "./",
         pageTitle: "Home",
         pageDescription: "Website Description",
         type: "link"
     },
     {
         label: "About",
-        href: "/About.html",
+        href: "./About.html",
         pageTitle: "About",
         pageDescription: "About Website",
         type: "link"
     },
     {
         label: "Contact",
-        href: "/Contact.html",
+        href: "./Contact.html",
         pageTitle: "Contact",
         pageDescription: "Contact.............",
         type: "link"

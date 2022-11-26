@@ -9,7 +9,7 @@
 }
 .primary-navigation ul li a {
   text-decoration: none;
-  transition: border 250ms ease;
+  transition: border-width 250ms ease;
   border-bottom: 0.125em solid currentColor;
 }
 .primary-navigation ul li a:hover {
