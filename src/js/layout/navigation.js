@@ -40,6 +40,7 @@ navSettings.forEach(function (index, value) {
         console.log("2: /Informatie-Technoligie-PO" + index.href.replace("./", "/"));
         console.log("3: " + location.pathname);
         if ("Informatie-Technoligie-PO" + index.href.replace("./", "/") === location.pathname) {
+            console.log("200");
             document.querySelector(`.page-` + index.label.toLowerCase()).classList.add(`primary-navigation-nav-active`);
 
             document.querySelector(`:root`).style.setProperty(`--color`, `var(--page-` + index.label.toLowerCase() + `, var(--accent-primary))`)
