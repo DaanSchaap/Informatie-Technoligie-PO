@@ -36,6 +36,8 @@ navSettings.forEach(function (index, value) {
     if (index.type === "link") {
         document.querySelector(`.primary-navigation-items`).insertAdjacentHTML(`beforeend`, `<li class="primary-navigation-item page-` + index.label.toLowerCase() + ` color-page-` + index.label.toLowerCase() + `"><a href="` + index.href + `">` + index.label + `</a></li>`);
         if ("Informatie-Technoligie-PO" + index.href.replace("./", "/") === location.pathname) {
+            console.log("Informatie-Technoligie-PO" + index.href.replace("./", "/"));
+            console.log(location.pathname);
             document.querySelector(`.page-` + index.label.toLowerCase()).classList.add(`primary-navigation-nav-active`);
 
             document.querySelector(`:root`).style.setProperty(`--color`, `var(--page-` + index.label.toLowerCase() + `, var(--accent-primary))`)
